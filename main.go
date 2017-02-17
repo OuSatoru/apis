@@ -31,7 +31,3 @@ func searchBaidu(s string) string {
 	body, _ := ioutil.ReadAll(html.Body)
 	return string(body)
 }
-
-func teststr(s string) string {
-	return "test " + s
-}
